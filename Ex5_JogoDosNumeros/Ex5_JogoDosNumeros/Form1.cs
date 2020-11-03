@@ -77,24 +77,17 @@ namespace Ex5_JogoDosNumeros
             return result;
         }
 
-        public void setScore(int matches)
+        public void setScore(int match)
         {
-           // Verifica os casos e aplica a pontuação
-           switch (matches)
+            // Aplica a pontuação com base no numero de correspondencias
+            Dictionary<int, int> matches = new Dictionary<int, int>
             {
-                case 0:
-                    this.score -= 5;
-                    break;
-                case 1:
-                    this.score += 10;
-                    break;
-                case 2:
-                    this.score += 25;
-                    break;
-                case 3:
-                    this.score += 50;
-                    break;
-            }
+                {0, -5},
+                {1, 10},
+                {2, 25},
+                {3, 50},
+            };
+            this.score += matches[match];
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
