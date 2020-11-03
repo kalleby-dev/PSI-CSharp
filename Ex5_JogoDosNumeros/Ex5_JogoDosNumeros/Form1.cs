@@ -56,14 +56,18 @@ namespace Ex5_JogoDosNumeros
 
         public void displayNumbers(int[] numbers)
         {
-            this.lblN1.Text = numbers[0].ToString();
-            this.lblN2.Text = numbers[1].ToString();
-            this.lblN3.Text = numbers[2].ToString();
+            // Pega as Labels atraves do nome, dinamicamente
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Label label = this.Controls["lblN" + (i + 1)] as Label;
+                label.Text = numbers[i].ToString();
+            }
         }
 
 
         public int[] createRandom()
         {
+            // Retorna um array com valores aleatorios
             Random randi = new Random();
             int[] result = new int[3];
 
@@ -75,6 +79,7 @@ namespace Ex5_JogoDosNumeros
 
         public void setScore(int matches)
         {
+           // Verifica os casos e aplica a pontuação
            switch (matches)
             {
                 case 0:
