@@ -65,12 +65,11 @@ namespace Ex5_JogoDosNumeros
         public int[] createRandom()
         {
             Random randi = new Random();
-            int[] result = new int[] {
-                randi.Next(MIN, MAX),
-                randi.Next(MIN, MAX),
-                randi.Next(MIN, MAX)
-            };
+            int[] result = new int[3];
 
+            for(int i = 0; i < result.Length; i++) {
+                result[i] = randi.Next(MIN, MAX);
+            }
             return result;
         }
 
