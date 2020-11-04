@@ -11,3 +11,16 @@ C:\Users\kalle\source\repos\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_
 C:\Users\kalle\source\repos\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.RulesForm.resources
 C:\Users\kalle\source\repos\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.WinnerForm.resources
 C:\Users\kalle\source\repos\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.LoseForm.resources
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\bin\Debug\Ex5_JogoDosNumeros.exe.config
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\bin\Debug\Ex5_JogoDosNumeros.exe
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\bin\Debug\Ex5_JogoDosNumeros.pdb
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.csprojAssemblyReference.cache
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.Form1.resources
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.LoseForm.resources
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.Properties.Resources.resources
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.RulesForm.resources
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.WinnerForm.resources
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.csproj.GenerateResource.cache
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.csproj.CoreCompileInputs.cache
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.exe
+C:\Users\kalle\Source\Repos\kalleby-dev\PSI-CSharp\Ex5_JogoDosNumeros\Ex5_JogoDosNumeros\obj\Debug\Ex5_JogoDosNumeros.pdb

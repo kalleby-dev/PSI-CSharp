@@ -56,41 +56,38 @@ namespace Ex5_JogoDosNumeros
 
         public void displayNumbers(int[] numbers)
         {
-            this.lblN1.Text = numbers[0].ToString();
-            this.lblN2.Text = numbers[1].ToString();
-            this.lblN3.Text = numbers[2].ToString();
+            // Pega as Labels atraves do nome, dinamicamente
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Label label = this.Controls["lblN" + (i + 1)] as Label;
+                label.Text = numbers[i].ToString();
+            }
         }
 
 
         public int[] createRandom()
         {
+            // Retorna um array com valores aleatorios
             Random randi = new Random();
-            int[] result = new int[] {
-                randi.Next(MIN, MAX),
-                randi.Next(MIN, MAX),
-                randi.Next(MIN, MAX)
-            };
+            int[] result = new int[3];
 
+            for(int i = 0; i < result.Length; i++) {
+                result[i] = randi.Next(MIN, MAX);
+            }
             return result;
         }
 
-        public void setScore(int matches)
+        public void setScore(int match)
         {
-           switch (matches)
+            // Aplica a pontuação com base no numero de correspondencias
+            Dictionary<int, int> matches = new Dictionary<int, int>
             {
-                case 0:
-                    this.score -= 5;
-                    break;
-                case 1:
-                    this.score += 10;
-                    break;
-                case 2:
-                    this.score += 25;
-                    break;
-                case 3:
-                    this.score += 50;
-                    break;
-            }
+                {0, -5},
+                {1, 10},
+                {2, 25},
+                {3, 50},
+            };
+            this.score += matches[match];
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
