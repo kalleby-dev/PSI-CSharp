@@ -1,0 +1,12 @@
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\bin\Debug\ComboBox.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\bin\Debug\ComboBox.exe
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\bin\Debug\ComboBox.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.AboutForm.resources
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.exe
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\ComboBox\ComboBox\obj\Debug\ComboBox.NewForm.resources
