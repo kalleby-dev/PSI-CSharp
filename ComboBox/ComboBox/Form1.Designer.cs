@@ -46,6 +46,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblCity = new System.Windows.Forms.Label();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            this.lblScroll = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -58,7 +59,7 @@
             this.opçõesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(380, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(386, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,7 +69,7 @@
             this.sobreToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
-            this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(73, 26);
             this.opçõesToolStripMenuItem.Text = "Opções";
             // 
             // sobreToolStripMenuItem
@@ -160,6 +161,7 @@
             this.btnBlue.TabStop = true;
             this.btnBlue.Text = "azul";
             this.btnBlue.UseVisualStyleBackColor = true;
+            this.btnBlue.CheckedChanged += new System.EventHandler(this.btnBlue_CheckedChanged);
             // 
             // btnRed
             // 
@@ -171,6 +173,7 @@
             this.btnRed.TabStop = true;
             this.btnRed.Text = "vermelho";
             this.btnRed.UseVisualStyleBackColor = true;
+            this.btnRed.CheckedChanged += new System.EventHandler(this.btnRed_CheckedChanged);
             // 
             // btnGreen
             // 
@@ -182,6 +185,7 @@
             this.btnGreen.TabStop = true;
             this.btnGreen.Text = "verde";
             this.btnGreen.UseVisualStyleBackColor = true;
+            this.btnGreen.CheckedChanged += new System.EventHandler(this.btnGreen_CheckedChanged);
             // 
             // btnOp1
             // 
@@ -240,16 +244,31 @@
             // 
             // hScrollBar1
             // 
+            this.hScrollBar1.LargeChange = 1;
             this.hScrollBar1.Location = new System.Drawing.Point(29, 499);
+            this.hScrollBar1.Maximum = 40;
+            this.hScrollBar1.Minimum = 10;
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(321, 21);
             this.hScrollBar1.TabIndex = 6;
+            this.hScrollBar1.Value = 10;
+            this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
+            // 
+            // lblScroll
+            // 
+            this.lblScroll.AutoSize = true;
+            this.lblScroll.Location = new System.Drawing.Point(162, 531);
+            this.lblScroll.MinimumSize = new System.Drawing.Size(50, 0);
+            this.lblScroll.Name = "lblScroll";
+            this.lblScroll.Size = new System.Drawing.Size(50, 17);
+            this.lblScroll.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 544);
+            this.ClientSize = new System.Drawing.Size(386, 576);
+            this.Controls.Add(this.lblScroll);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.lblCity);
             this.Controls.Add(this.label2);
@@ -293,6 +312,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblCity;
         private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.Label lblScroll;
     }
 }
 

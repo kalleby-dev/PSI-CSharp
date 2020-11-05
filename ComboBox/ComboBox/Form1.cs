@@ -38,5 +38,25 @@ namespace ComboBox
         {
             this.lblCity.Text = this.cmbList.Text;
         }
+
+        private void btnBlue_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lblCity.BackColor = Color.Aquamarine;
+        }
+
+        private void btnRed_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lblCity.BackColor = Color.IndianRed;
+        }
+
+        private void btnGreen_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lblCity.BackColor = Color.GreenYellow;
+        }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            this.lblScroll.Text = this.hScrollBar1.Value.ToString();
+        }
     }
 }
