@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\bin\Debug\EX7-SmilesCartas.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\bin\Debug\EX7-SmilesCartas.exe
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\bin\Debug\EX7-SmilesCartas.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7-SmilesCartas.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7_SmilesCartas.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7_SmilesCartas.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7-SmilesCartas.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7-SmilesCartas.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7-SmilesCartas.exe
+D:\Kalleby\Documents\Programing\C#\Escola\EX7-SmilesCartas\EX7-SmilesCartas\obj\Debug\EX7-SmilesCartas.pdb
