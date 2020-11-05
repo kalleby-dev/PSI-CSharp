@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.scrTemperatura = new System.Windows.Forms.HScrollBar();
+            this.txtTemperatura = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,28 +52,30 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Calor";
             // 
-            // hScrollBar1
+            // scrTemperatura
             // 
-            this.hScrollBar1.LargeChange = 1;
-            this.hScrollBar1.Location = new System.Drawing.Point(41, 254);
-            this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(475, 21);
-            this.hScrollBar1.TabIndex = 2;
+            this.scrTemperatura.LargeChange = 1;
+            this.scrTemperatura.Location = new System.Drawing.Point(41, 254);
+            this.scrTemperatura.Name = "scrTemperatura";
+            this.scrTemperatura.Size = new System.Drawing.Size(475, 21);
+            this.scrTemperatura.TabIndex = 2;
+            this.scrTemperatura.Scroll += new System.Windows.Forms.ScrollEventHandler(this.scrTemperatura_Scroll);
             // 
-            // textBox1
+            // txtTemperatura
             // 
-            this.textBox1.Location = new System.Drawing.Point(222, 164);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 3;
+            this.txtTemperatura.Location = new System.Drawing.Point(222, 164);
+            this.txtTemperatura.Name = "txtTemperatura";
+            this.txtTemperatura.Size = new System.Drawing.Size(100, 22);
+            this.txtTemperatura.TabIndex = 3;
+            this.txtTemperatura.TextChanged += new System.EventHandler(this.txtTemperatura_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(571, 439);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.hScrollBar1);
+            this.Controls.Add(this.txtTemperatura);
+            this.Controls.Add(this.scrTemperatura);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -87,8 +89,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.HScrollBar hScrollBar1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.HScrollBar scrTemperatura;
+        private System.Windows.Forms.TextBox txtTemperatura;
     }
 }
 
