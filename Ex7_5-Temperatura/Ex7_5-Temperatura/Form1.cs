@@ -21,8 +21,11 @@ namespace Ex7_5_Temperatura
 
         public void updateTemp()
         {
-            this.txtTemperatura.Text = $"{ this.temperatura }";
+            this.temperatura = (this.temperatura >= 100) ? 100 : this.temperatura;
+            this.temperatura = (this.temperatura <= 0) ? 0 : this.temperatura;
+
             this.scrTemperatura.Value = this.temperatura;
+            this.txtTemperatura.Text = $"{ this.temperatura } Graus";
         }
 
         private void scrTemperatura_Scroll(object sender, ScrollEventArgs e)
@@ -33,11 +36,13 @@ namespace Ex7_5_Temperatura
 
         private void txtTemperatura_TextChanged(object sender, EventArgs e)
         {
-            /*String text = this.txtTemperatura.Text;
+            String text = this.txtTemperatura.Text;
             var split = text.Split(' ');
-            Console.WriteLine(split);
-            int.TryParse(this.txtTemperatura.Text, out this.temperatura);
-            this.updateTemp();*/
+            
+            System.Diagnostics.Debug.WriteLine(split[0]);
+
+            int.TryParse(split[0], out this.temperatura);
+            this.updateTemp();
         }
     }
 }
