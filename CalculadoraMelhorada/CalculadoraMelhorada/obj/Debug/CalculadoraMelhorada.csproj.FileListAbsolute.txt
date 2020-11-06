@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\bin\Debug\CalculadoraMelhorada.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\bin\Debug\CalculadoraMelhorada.exe
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\bin\Debug\CalculadoraMelhorada.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.exe
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.pdb
