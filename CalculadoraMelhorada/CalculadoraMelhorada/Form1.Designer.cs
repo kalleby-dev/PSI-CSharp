@@ -45,12 +45,12 @@
             this.btnSum = new System.Windows.Forms.Button();
             this.btnMult = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.numPanel = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.lblDisplay = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.numPanel.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -243,24 +243,24 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // panel1
+            // numPanel
             // 
-            this.panel1.Controls.Add(this.btn8);
-            this.panel1.Controls.Add(this.btn9);
-            this.panel1.Controls.Add(this.btn1);
-            this.panel1.Controls.Add(this.btn4);
-            this.panel1.Controls.Add(this.btn6);
-            this.panel1.Controls.Add(this.btn7);
-            this.panel1.Controls.Add(this.btn5);
-            this.panel1.Controls.Add(this.btn0);
-            this.panel1.Controls.Add(this.btn3);
-            this.panel1.Controls.Add(this.btnFloat);
-            this.panel1.Controls.Add(this.btn2);
-            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(10, 85);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(247, 228);
-            this.panel1.TabIndex = 3;
+            this.numPanel.Controls.Add(this.btn8);
+            this.numPanel.Controls.Add(this.btn9);
+            this.numPanel.Controls.Add(this.btn1);
+            this.numPanel.Controls.Add(this.btn4);
+            this.numPanel.Controls.Add(this.btn6);
+            this.numPanel.Controls.Add(this.btn7);
+            this.numPanel.Controls.Add(this.btn5);
+            this.numPanel.Controls.Add(this.btn0);
+            this.numPanel.Controls.Add(this.btn3);
+            this.numPanel.Controls.Add(this.btnFloat);
+            this.numPanel.Controls.Add(this.btn2);
+            this.numPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numPanel.Location = new System.Drawing.Point(10, 85);
+            this.numPanel.Name = "numPanel";
+            this.numPanel.Size = new System.Drawing.Size(247, 228);
+            this.numPanel.TabIndex = 3;
             // 
             // panel2
             // 
@@ -320,10 +320,10 @@
             this.Controls.Add(this.lblDisplay);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.numPanel);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
+            this.numPanel.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -349,7 +349,7 @@
         private System.Windows.Forms.Button btnSum;
         private System.Windows.Forms.Button btnMult;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel numPanel;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button1;
