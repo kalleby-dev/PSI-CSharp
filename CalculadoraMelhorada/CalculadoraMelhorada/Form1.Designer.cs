@@ -241,6 +241,7 @@
             this.btnClear.TabIndex = 0;
             this.btnClear.Text = "C";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // panel1
             // 
@@ -302,13 +303,14 @@
             this.lblDisplay.AutoSize = true;
             this.lblDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.lblDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplay.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblDisplay.Location = new System.Drawing.Point(7, 19);
             this.lblDisplay.MinimumSize = new System.Drawing.Size(420, 50);
             this.lblDisplay.Name = "lblDisplay";
             this.lblDisplay.Size = new System.Drawing.Size(420, 50);
             this.lblDisplay.TabIndex = 6;
+            this.lblDisplay.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
