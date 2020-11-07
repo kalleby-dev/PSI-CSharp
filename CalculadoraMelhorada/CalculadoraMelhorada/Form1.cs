@@ -70,7 +70,6 @@ namespace CalculadoraMelhorada
 
         public void saveTemp()
         {
-
             this.tempValue = this.currentValue;
             this.currentValue = 0;
             this.currentTotal = (this.currentTotal == 0)? tempValue : this.calc(this.currentTotal, this.tempValue);
@@ -122,6 +121,19 @@ namespace CalculadoraMelhorada
             this.saveTemp();
             this.updateDisplay(this.currentTotal.ToString());
             this.resetValues();
+        }
+
+        private void btnFloat_Click(object sender, EventArgs e)
+        {
+            this.currentText += ".";
+            this.updateDisplay();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (this.currentText.Length == 0) return;
+            this.currentText = this.currentText.Remove(this.currentText.Length - 1);
+            this.updateDisplay();
         }
     }
 

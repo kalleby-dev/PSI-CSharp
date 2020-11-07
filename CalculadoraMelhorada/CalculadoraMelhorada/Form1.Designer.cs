@@ -175,6 +175,7 @@
             this.btnFloat.TabIndex = 2;
             this.btnFloat.Text = ",";
             this.btnFloat.UseVisualStyleBackColor = true;
+            this.btnFloat.Click += new System.EventHandler(this.btnFloat_Click);
             // 
             // btnResult
             // 
@@ -298,6 +299,7 @@
             this.button1.TabIndex = 0;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblDisplay
             // 
