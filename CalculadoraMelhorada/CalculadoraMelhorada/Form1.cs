@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace CalculadoraMelhorada
 {
-    public class FuncMath
-    {
-        public Func<float, float, float> MathFunc { get; set; }
-    }
     public partial class Form1 : Form
     {
         private String currentText = "";
+        private String currentOperation;
+
+        private float tempValue;
         private float currentTotal = 0;
+        
 
         private Dictionary<String, FuncMath> operations = new Dictionary<string, FuncMath>();
         public Form1()
@@ -74,6 +74,9 @@ namespace CalculadoraMelhorada
         private void btnClear_Click(object sender, EventArgs e)
         {
             this.clearDisplay();
+            this.currentTotal = 0;
+            this.currentOperation = "";
+            this.tempValue = 0;
         }
            
         protected void btnNumClick(object sender, EventArgs e)
@@ -87,12 +90,27 @@ namespace CalculadoraMelhorada
         {
             Button btn = sender as Button;
 
-            String operation = btn.Text;
-            float.TryParse(this.currentText, out float currentNumber);
-            
+            this.currentOperation = btn.Text;
+            float.TryParse(this.currentText, out this.tempValue);
 
-
-            Debug.WriteLine("Math click");
+            this.clearDisplay();
         }
+
+        private void btnResult_Click(object sender, EventArgs e)
+        {
+            float.TryParse(this.currentText, out float currentValue);
+
+            this.operations.TryGetValue(this.currentOperation, out FuncMath choose);
+
+            this.currentTotal += choose.MathFunc(this.tempValue, currentValue);
+            this.currentText = this.currentTotal.ToString();
+            this.tempValue = currentValue;
+            this.updateDisplay();
+        }
+    }
+
+    public class FuncMath
+    {
+        public Func<float, float, float> MathFunc { get; set; }
     }
 }

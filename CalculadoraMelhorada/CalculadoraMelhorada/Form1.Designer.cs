@@ -186,6 +186,7 @@
             this.btnResult.TabIndex = 2;
             this.btnResult.Text = "=";
             this.btnResult.UseVisualStyleBackColor = true;
+            this.btnResult.Click += new System.EventHandler(this.btnResult_Click);
             // 
             // btnMath4
             // 

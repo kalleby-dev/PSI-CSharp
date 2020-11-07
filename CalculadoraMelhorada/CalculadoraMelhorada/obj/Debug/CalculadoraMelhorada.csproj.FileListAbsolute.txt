@@ -7,4 +7,4 @@ D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhor
 D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.csproj.CoreCompileInputs.cache
 D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.exe
 D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.pdb
-D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.FuncMath.resources
+D:\Kalleby\Documents\Programing\C#\Escola\CalculadoraMelhorada\CalculadoraMelhorada\obj\Debug\CalculadoraMelhorada.Form1.resources
