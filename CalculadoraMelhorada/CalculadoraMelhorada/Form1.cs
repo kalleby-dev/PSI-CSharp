@@ -14,9 +14,10 @@ namespace CalculadoraMelhorada
     public partial class Form1 : Form
     {
         private String currentText = "";
-        private String currentOperation;
+        private String currentOperation = "";
 
-        private float tempValue;
+        private float tempValue = 0;
+        private float currentValue = 0;
         private float currentTotal = 0;
         
 
@@ -26,7 +27,7 @@ namespace CalculadoraMelhorada
             InitializeComponent();
             this.initButtons();
             this.initOperations();
-            this.clearDisplay();
+            this.updateDisplay("");
         }
 
         protected void initButtons()
@@ -57,26 +58,43 @@ namespace CalculadoraMelhorada
 
             this.operations.Add("/", new FuncMath());
             this.operations["/"].MathFunc = (numberA, numberB) => numberA / numberB;
-            // Debug.WriteLine(this.operations["+"].MathFunc(2, 2));
         }
 
-        public void clearDisplay()
+        public float calc(float n1, float n2)
         {
-            this.currentText = "";
-            this.updateDisplay();
+            bool isOption = this.operations.TryGetValue(this.currentOperation, out FuncMath option);
+            if (isOption == false) return 0;
+
+            return option.MathFunc(n1, n2);
         }
 
-        public void updateDisplay()
+        public void saveTemp()
         {
+
+            this.tempValue = this.currentValue;
+            this.currentValue = 0;
+            this.currentTotal = (this.currentTotal == 0)? tempValue : this.calc(this.currentTotal, this.tempValue);
+            Debug.WriteLine(currentTotal);
+        }
+
+        public void resetValues()
+        {
+            this.tempValue = 0;
+            this.currentValue = 0;
+            this.currentTotal = 0;
+            this.currentOperation = "";
+        }
+
+        public void updateDisplay(String text = null)
+        {
+            this.currentText = (text == null)? this.currentText : text;
             this.lblDisplay.Text = this.currentText;
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            this.clearDisplay();
-            this.currentTotal = 0;
-            this.currentOperation = "";
-            this.tempValue = 0;
+            this.updateDisplay("");
+            this.resetValues();
         }
            
         protected void btnNumClick(object sender, EventArgs e)
@@ -91,21 +109,19 @@ namespace CalculadoraMelhorada
             Button btn = sender as Button;
 
             this.currentOperation = btn.Text;
-            float.TryParse(this.currentText, out this.tempValue);
+            float.TryParse(this.currentText, out this.currentValue);
 
-            this.clearDisplay();
+            this.saveTemp();
+            this.updateDisplay("");
         }
 
         private void btnResult_Click(object sender, EventArgs e)
         {
-            float.TryParse(this.currentText, out float currentValue);
+            float.TryParse(this.currentText, out this.currentValue);
 
-            this.operations.TryGetValue(this.currentOperation, out FuncMath choose);
-
-            this.currentTotal += choose.MathFunc(this.tempValue, currentValue);
-            this.currentText = this.currentTotal.ToString();
-            this.tempValue = currentValue;
-            this.updateDisplay();
+            this.saveTemp();
+            this.updateDisplay(this.currentTotal.ToString());
+            this.resetValues();
         }
     }
 
