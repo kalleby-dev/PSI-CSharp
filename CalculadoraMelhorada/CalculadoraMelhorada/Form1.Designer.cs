@@ -40,18 +40,18 @@
             this.btn9 = new System.Windows.Forms.Button();
             this.btnFloat = new System.Windows.Forms.Button();
             this.btnResult = new System.Windows.Forms.Button();
-            this.btnDiv = new System.Windows.Forms.Button();
-            this.btnSub = new System.Windows.Forms.Button();
-            this.btnSum = new System.Windows.Forms.Button();
-            this.btnMult = new System.Windows.Forms.Button();
+            this.btnMath4 = new System.Windows.Forms.Button();
+            this.btnMath2 = new System.Windows.Forms.Button();
+            this.btnMath1 = new System.Windows.Forms.Button();
+            this.btnMath3 = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.numPanel = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.mathPanel = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.lblDisplay = new System.Windows.Forms.Label();
             this.numPanel.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.mathPanel.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -187,49 +187,49 @@
             this.btnResult.Text = "=";
             this.btnResult.UseVisualStyleBackColor = true;
             // 
-            // btnDiv
+            // btnMath4
             // 
-            this.btnDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDiv.Location = new System.Drawing.Point(84, 59);
-            this.btnDiv.MinimumSize = new System.Drawing.Size(0, 50);
-            this.btnDiv.Name = "btnDiv";
-            this.btnDiv.Size = new System.Drawing.Size(75, 50);
-            this.btnDiv.TabIndex = 0;
-            this.btnDiv.Text = ":";
-            this.btnDiv.UseVisualStyleBackColor = true;
+            this.btnMath4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMath4.Location = new System.Drawing.Point(84, 59);
+            this.btnMath4.MinimumSize = new System.Drawing.Size(0, 50);
+            this.btnMath4.Name = "btnMath4";
+            this.btnMath4.Size = new System.Drawing.Size(75, 50);
+            this.btnMath4.TabIndex = 0;
+            this.btnMath4.Text = "/";
+            this.btnMath4.UseVisualStyleBackColor = true;
             // 
-            // btnSub
+            // btnMath2
             // 
-            this.btnSub.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSub.Location = new System.Drawing.Point(84, 3);
-            this.btnSub.MinimumSize = new System.Drawing.Size(0, 50);
-            this.btnSub.Name = "btnSub";
-            this.btnSub.Size = new System.Drawing.Size(75, 50);
-            this.btnSub.TabIndex = 0;
-            this.btnSub.Text = "-";
-            this.btnSub.UseVisualStyleBackColor = true;
+            this.btnMath2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMath2.Location = new System.Drawing.Point(84, 3);
+            this.btnMath2.MinimumSize = new System.Drawing.Size(0, 50);
+            this.btnMath2.Name = "btnMath2";
+            this.btnMath2.Size = new System.Drawing.Size(75, 50);
+            this.btnMath2.TabIndex = 0;
+            this.btnMath2.Text = "-";
+            this.btnMath2.UseVisualStyleBackColor = true;
             // 
-            // btnSum
+            // btnMath1
             // 
-            this.btnSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSum.Location = new System.Drawing.Point(3, 3);
-            this.btnSum.MinimumSize = new System.Drawing.Size(0, 50);
-            this.btnSum.Name = "btnSum";
-            this.btnSum.Size = new System.Drawing.Size(75, 50);
-            this.btnSum.TabIndex = 0;
-            this.btnSum.Text = "+";
-            this.btnSum.UseVisualStyleBackColor = true;
+            this.btnMath1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMath1.Location = new System.Drawing.Point(3, 3);
+            this.btnMath1.MinimumSize = new System.Drawing.Size(0, 50);
+            this.btnMath1.Name = "btnMath1";
+            this.btnMath1.Size = new System.Drawing.Size(75, 50);
+            this.btnMath1.TabIndex = 0;
+            this.btnMath1.Text = "+";
+            this.btnMath1.UseVisualStyleBackColor = true;
             // 
-            // btnMult
+            // btnMath3
             // 
-            this.btnMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMult.Location = new System.Drawing.Point(3, 59);
-            this.btnMult.MinimumSize = new System.Drawing.Size(0, 50);
-            this.btnMult.Name = "btnMult";
-            this.btnMult.Size = new System.Drawing.Size(75, 50);
-            this.btnMult.TabIndex = 0;
-            this.btnMult.Text = "x";
-            this.btnMult.UseVisualStyleBackColor = true;
+            this.btnMath3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMath3.Location = new System.Drawing.Point(3, 59);
+            this.btnMath3.MinimumSize = new System.Drawing.Size(0, 50);
+            this.btnMath3.Name = "btnMath3";
+            this.btnMath3.Size = new System.Drawing.Size(75, 50);
+            this.btnMath3.TabIndex = 0;
+            this.btnMath3.Text = "x";
+            this.btnMath3.UseVisualStyleBackColor = true;
             // 
             // btnClear
             // 
@@ -262,18 +262,18 @@
             this.numPanel.Size = new System.Drawing.Size(247, 228);
             this.numPanel.TabIndex = 3;
             // 
-            // panel2
+            // mathPanel
             // 
-            this.panel2.Controls.Add(this.btnSum);
-            this.panel2.Controls.Add(this.btnDiv);
-            this.panel2.Controls.Add(this.btnResult);
-            this.panel2.Controls.Add(this.btnMult);
-            this.panel2.Controls.Add(this.btnSub);
-            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(263, 145);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(162, 168);
-            this.panel2.TabIndex = 4;
+            this.mathPanel.Controls.Add(this.btnMath1);
+            this.mathPanel.Controls.Add(this.btnMath4);
+            this.mathPanel.Controls.Add(this.btnResult);
+            this.mathPanel.Controls.Add(this.btnMath3);
+            this.mathPanel.Controls.Add(this.btnMath2);
+            this.mathPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mathPanel.Location = new System.Drawing.Point(263, 145);
+            this.mathPanel.Name = "mathPanel";
+            this.mathPanel.Size = new System.Drawing.Size(162, 168);
+            this.mathPanel.TabIndex = 4;
             // 
             // panel3
             // 
@@ -319,12 +319,12 @@
             this.ClientSize = new System.Drawing.Size(440, 335);
             this.Controls.Add(this.lblDisplay);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.mathPanel);
             this.Controls.Add(this.numPanel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.numPanel.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.mathPanel.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -344,13 +344,13 @@
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btnFloat;
         private System.Windows.Forms.Button btnResult;
-        private System.Windows.Forms.Button btnDiv;
-        private System.Windows.Forms.Button btnSub;
-        private System.Windows.Forms.Button btnSum;
-        private System.Windows.Forms.Button btnMult;
+        private System.Windows.Forms.Button btnMath4;
+        private System.Windows.Forms.Button btnMath2;
+        private System.Windows.Forms.Button btnMath1;
+        private System.Windows.Forms.Button btnMath3;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Panel numPanel;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel mathPanel;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblDisplay;
