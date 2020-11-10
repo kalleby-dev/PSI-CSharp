@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\bin\Debug\Tabuada.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\bin\Debug\Tabuada.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\bin\Debug\Tabuada.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Tabuada\Tabuada\obj\Debug\Tabuada.pdb
