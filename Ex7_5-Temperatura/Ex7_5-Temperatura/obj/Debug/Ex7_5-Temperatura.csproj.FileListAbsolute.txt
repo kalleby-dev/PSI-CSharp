@@ -1,0 +1,9 @@
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\bin\Debug\Ex7_5-Temperatura.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\bin\Debug\Ex7_5-Temperatura.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\bin\Debug\Ex7_5-Temperatura.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\obj\Debug\Ex7_5_Temperatura.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\obj\Debug\Ex7_5_Temperatura.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\obj\Debug\Ex7_5-Temperatura.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\obj\Debug\Ex7_5-Temperatura.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\obj\Debug\Ex7_5-Temperatura.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Ex7_5-Temperatura\Ex7_5-Temperatura\obj\Debug\Ex7_5-Temperatura.pdb
