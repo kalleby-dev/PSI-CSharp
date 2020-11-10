@@ -41,6 +41,7 @@
             this.listSum = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnReset = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -48,22 +49,24 @@
             // lblValor1
             // 
             this.lblValor1.AutoSize = true;
-            this.lblValor1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblValor1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblValor1.Location = new System.Drawing.Point(9, 34);
+            this.lblValor1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblValor1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblValor1.Location = new System.Drawing.Point(62, 34);
+            this.lblValor1.MinimumSize = new System.Drawing.Size(50, 0);
             this.lblValor1.Name = "lblValor1";
-            this.lblValor1.Size = new System.Drawing.Size(46, 17);
+            this.lblValor1.Size = new System.Drawing.Size(50, 17);
             this.lblValor1.TabIndex = 0;
             this.lblValor1.Text = "label1";
             // 
             // lblValor2
             // 
             this.lblValor2.AutoSize = true;
-            this.lblValor2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblValor2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblValor2.Location = new System.Drawing.Point(14, 33);
+            this.lblValor2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblValor2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblValor2.Location = new System.Drawing.Point(67, 33);
+            this.lblValor2.MinimumSize = new System.Drawing.Size(50, 0);
             this.lblValor2.Name = "lblValor2";
-            this.lblValor2.Size = new System.Drawing.Size(46, 17);
+            this.lblValor2.Size = new System.Drawing.Size(50, 17);
             this.lblValor2.TabIndex = 1;
             this.lblValor2.Text = "label2";
             // 
@@ -89,6 +92,7 @@
             this.btnValor1.TabIndex = 4;
             this.btnValor1.Text = "Inserir";
             this.btnValor1.UseVisualStyleBackColor = true;
+            this.btnValor1.Click += new System.EventHandler(this.btnValor1_Click);
             // 
             // btnValor2
             // 
@@ -168,11 +172,21 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(391, 422);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 30);
+            this.btnReset.TabIndex = 12;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 436);
+            this.ClientSize = new System.Drawing.Size(491, 477);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listSum);
@@ -205,6 +219,7 @@
         private System.Windows.Forms.ListBox listSum;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 
