@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\bin\Debug\Vetores.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\bin\Debug\Vetores.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\bin\Debug\Vetores.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Vetores\Vetores\obj\Debug\Vetores.csprojAssemblyReference.cache

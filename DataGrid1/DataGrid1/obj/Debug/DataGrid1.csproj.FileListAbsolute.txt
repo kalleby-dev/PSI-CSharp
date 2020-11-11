@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\bin\Debug\DataGrid1.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\bin\Debug\DataGrid1.exe
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\bin\Debug\DataGrid1.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.exe
+D:\Kalleby\Documents\Programing\C#\Escola\DataGrid1\DataGrid1\obj\Debug\DataGrid1.pdb

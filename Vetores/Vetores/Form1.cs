@@ -65,7 +65,6 @@ namespace Vetores
             return (index < max -1) ? this.sumArray(vetor1, vetor2, result, max, ++index) : result;
         }
 
-
         private void btnValor1_Click(object sender, EventArgs e)
         { 
             bool isNumber = int.TryParse(this.txtValor1.Text, out this.vetor1[this.pos1]);
@@ -115,6 +114,8 @@ namespace Vetores
         private void btnSum_Click(object sender, EventArgs e)
         {
             if (this.pos1 < 10 || this.pos2 < 10) return;
+            if (this.listValor1.Items.Count == 0 || this.listValor2.Items.Count == 0) return;
+
             this.listSum.Items.Clear();
 
             int[] result = this.sumArray(this.vetor1, this.vetor2);
