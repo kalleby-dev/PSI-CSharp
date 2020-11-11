@@ -38,10 +38,30 @@ namespace Vetores
             MessageBox.Show(message);
         }
 
+        public int displayList(int[] vetor, ListBox list, int index = 0)
+        {
+            list.Items.Add(vetor[index]);
+            return (index < 9)? this.displayList(vetor, list, ++index) : index;
+        }
+
+        public int[] sumArray(int[] vetor1, int[] vetor2, int[] result = null, int max = 0,int index = 0)
+        {
+            max = (vetor1.Length == vetor2.Length) ? vetor1.Length : max;
+            max = (max == 0) ? 0 : max;
+
+            result = (result == null) ? new int[max] : result;
+            result[index] = vetor1[index] + vetor2[index];
+
+            return (index < max -1) ? this.sumArray(vetor1, vetor2, result, max, ++index) : result;
+        }
+
+
         private void btnValor1_Click(object sender, EventArgs e)
         { 
             bool isNumber = int.TryParse(this.txtValor1.Text, out this.vetor1[this.pos1]);
             this.txtValor1.ResetText();
+            this.txtValor1.Focus();
+
             if (isNumber == false)
             {
                 this.displayError("Valor invalido");
@@ -53,6 +73,41 @@ namespace Vetores
             this.updateDisplay();
             this.txtValor1.Enabled = (this.pos1 > 9)? false: true;
             this.btnValor1.Enabled = (this.pos1 > 9)? false: true;
+        }
+
+        private void btnValor2_Click(object sender, EventArgs e)
+        {
+            bool isNumber = int.TryParse(this.txtValor2.Text, out this.vetor2[this.pos2]);
+            this.txtValor2.ResetText();
+            this.txtValor2.Focus();
+
+            if (isNumber == false)
+            {
+                this.displayError("Valor invalido");
+                return;
+            }
+
+            pos2++;
+            this.updateDisplay();
+            this.txtValor2.Enabled = (this.pos2 > 9)? false : true;
+            this.btnValor2.Enabled = (this.pos2 > 9)? false : true;
+        }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            if (this.pos1 < 10 || this.pos2 < 10) return;
+
+            this.listValor1.Items.Clear();
+            this.listValor2.Items.Clear();
+
+            this.displayList(this.vetor1, this.listValor1);
+            this.displayList(this.vetor2, this.listValor2);
+        }
+
+        private void btnSum_Click(object sender, EventArgs e)
+        {
+            int[] result = this.sumArray(this.vetor1, this.vetor2);
+            this.displayList(result, this.listSum);
         }
     }
 }

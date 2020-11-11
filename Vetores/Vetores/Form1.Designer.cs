@@ -102,6 +102,7 @@
             this.btnValor2.TabIndex = 5;
             this.btnValor2.Text = "Inserir";
             this.btnValor2.UseVisualStyleBackColor = true;
+            this.btnValor2.Click += new System.EventHandler(this.btnValor2_Click);
             // 
             // btnShow
             // 
@@ -111,6 +112,7 @@
             this.btnShow.TabIndex = 6;
             this.btnShow.Text = "Apresentar valores";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // btnSum
             // 
@@ -120,6 +122,7 @@
             this.btnSum.TabIndex = 7;
             this.btnSum.Text = "Somar";
             this.btnSum.UseVisualStyleBackColor = true;
+            this.btnSum.Click += new System.EventHandler(this.btnSum_Click);
             // 
             // listValor1
             // 
