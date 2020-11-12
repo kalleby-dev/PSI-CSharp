@@ -24,7 +24,15 @@ namespace DataGrid1
             this.dgvLista[0, linha].Value = txtValor1.Text;
             this.dgvLista[1, linha].Value = txtValor2.Text;
 
+            txtValor1.Clear();
+            txtValor2.Clear();
             linha++;
+        }
+
+        private void dgvLista_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            this.lblResult1.Text = this.dgvLista[0, e.RowIndex].Value.ToString();
+            this.lblResult2.Text = this.dgvLista[1, e.RowIndex].Value.ToString();
         }
     }
 }
