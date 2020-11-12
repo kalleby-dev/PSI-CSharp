@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\bin\Debug\Datagrid2.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\bin\Debug\Datagrid2.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\bin\Debug\Datagrid2.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Datagrid2\Datagrid2\obj\Debug\Datagrid2.pdb
