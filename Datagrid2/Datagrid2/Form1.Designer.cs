@@ -35,10 +35,16 @@
             this.lblDesc1 = new System.Windows.Forms.Label();
             this.lblColumns = new System.Windows.Forms.Label();
             this.tblNumeros = new System.Windows.Forms.DataGridView();
-            this.btnCalc = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCalc = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblDiagonal = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblPares = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblImpar = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tblNumeros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,15 +123,6 @@
             this.tblNumeros.Size = new System.Drawing.Size(305, 91);
             this.tblNumeros.TabIndex = 6;
             // 
-            // btnCalc
-            // 
-            this.btnCalc.Location = new System.Drawing.Point(49, 238);
-            this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(305, 46);
-            this.btnCalc.TabIndex = 7;
-            this.btnCalc.Text = "Calcular Valores";
-            this.btnCalc.UseVisualStyleBackColor = true;
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "Column1";
@@ -147,11 +144,86 @@
             this.Column3.Name = "Column3";
             this.Column3.Width = 75;
             // 
+            // btnCalc
+            // 
+            this.btnCalc.Enabled = false;
+            this.btnCalc.Location = new System.Drawing.Point(49, 238);
+            this.btnCalc.Name = "btnCalc";
+            this.btnCalc.Size = new System.Drawing.Size(305, 46);
+            this.btnCalc.TabIndex = 7;
+            this.btnCalc.Text = "Calcular Valores";
+            this.btnCalc.UseVisualStyleBackColor = true;
+            this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(46, 324);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 17);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Diagonal Principal";
+            // 
+            // lblDiagonal
+            // 
+            this.lblDiagonal.AutoSize = true;
+            this.lblDiagonal.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblDiagonal.Location = new System.Drawing.Point(254, 324);
+            this.lblDiagonal.MinimumSize = new System.Drawing.Size(100, 0);
+            this.lblDiagonal.Name = "lblDiagonal";
+            this.lblDiagonal.Size = new System.Drawing.Size(100, 17);
+            this.lblDiagonal.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(46, 358);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(105, 17);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Números pares";
+            // 
+            // lblPares
+            // 
+            this.lblPares.AutoSize = true;
+            this.lblPares.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblPares.Location = new System.Drawing.Point(254, 358);
+            this.lblPares.MinimumSize = new System.Drawing.Size(100, 0);
+            this.lblPares.Name = "lblPares";
+            this.lblPares.Size = new System.Drawing.Size(100, 17);
+            this.lblPares.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(46, 391);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(119, 17);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Numeros Impares";
+            // 
+            // lblImpar
+            // 
+            this.lblImpar.AutoSize = true;
+            this.lblImpar.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lblImpar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblImpar.Location = new System.Drawing.Point(254, 391);
+            this.lblImpar.MinimumSize = new System.Drawing.Size(100, 0);
+            this.lblImpar.Name = "lblImpar";
+            this.lblImpar.Size = new System.Drawing.Size(100, 17);
+            this.lblImpar.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 689);
+            this.ClientSize = new System.Drawing.Size(497, 445);
+            this.Controls.Add(this.lblImpar);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblPares);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblDiagonal);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.tblNumeros);
             this.Controls.Add(this.lblColumns);
@@ -181,6 +253,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDiagonal;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblPares;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblImpar;
     }
 }
 
