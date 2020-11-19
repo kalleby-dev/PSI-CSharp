@@ -72,7 +72,12 @@ namespace Ficha_DataGrid
 
         private void btnMaximo_Click(object sender, EventArgs e)
         {
-            
+            double max = numeros[0, 0];
+            foreach(double value in numeros)
+            {
+                max = (value > max) ? value : max;
+            }
+            this.lblMax.Text = max.ToString();
         }
     }
 }
