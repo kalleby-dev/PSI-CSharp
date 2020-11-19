@@ -231,6 +231,7 @@
             this.btnModa.TabIndex = 12;
             this.btnModa.Text = "Moda";
             this.btnModa.UseVisualStyleBackColor = true;
+            this.btnModa.Click += new System.EventHandler(this.btnModa_Click);
             // 
             // Form1
             // 

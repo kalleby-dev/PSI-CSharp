@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -27,16 +28,27 @@ namespace Ficha_DataGrid
         {
             Random randf = new Random();
 
-            for(int column = 0; column < COLUMN_MAX; column++)
+            for (int column = 0; column < COLUMN_MAX; column++)
             {
-                for(int row = 0; row < ROW_MAX; row++)
+                for (int row = 0; row < ROW_MAX; row++)
                 {
                     double value = randf.NextDouble() * 50;
-                    value = (double) Decimal.Round((decimal)value, 2);
+                    value = (double)Decimal.Round((decimal)value, 2);
                     numeros[column, row] = value;
                     tblNumeros[column, row].Value = value;
                 }
             }
+        }
+
+        public int countNumber(int number)
+        {
+            List<int> values = new List<int> { };
+            foreach (double value in numeros)
+            {
+                values.Add((int)value);
+            }
+
+            return values.Count(n => n == number);
         }
 
         private void btnGenerate_Click(object sender, EventArgs e)
@@ -51,7 +63,7 @@ namespace Ficha_DataGrid
         private void btnMedia_Click(object sender, EventArgs e)
         {
             double total = 0;
-            foreach(double value in numeros)
+            foreach (double value in numeros)
             {
                 total += value;
             }
@@ -63,9 +75,9 @@ namespace Ficha_DataGrid
         private void btnMinimo_Click(object sender, EventArgs e)
         {
             double min = numeros[0, 0];
-            foreach(double value in numeros)
+            foreach (double value in numeros)
             {
-                min = (value < min)? value : min;
+                min = (value < min) ? value : min;
             }
             this.lblMin.Text = min.ToString();
         }
@@ -73,11 +85,27 @@ namespace Ficha_DataGrid
         private void btnMaximo_Click(object sender, EventArgs e)
         {
             double max = numeros[0, 0];
-            foreach(double value in numeros)
+            foreach (double value in numeros)
             {
                 max = (value > max) ? value : max;
             }
             this.lblMax.Text = max.ToString();
+        }
+
+        private void btnModa_Click(object sender, EventArgs e)
+        {
+            int moda = 0;
+            int count = 0;
+            foreach (double value in numeros)
+            {
+                int atual = countNumber((int)value);
+                if (atual > count)
+                {
+                    count = atual;
+                    moda = (int)value;
+                }
+            }
+            this.lblModa.Text = moda.ToString();
         }
     }
 }
