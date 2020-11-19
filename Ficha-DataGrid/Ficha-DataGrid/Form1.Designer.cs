@@ -133,7 +133,7 @@
             this.lblMax.BackColor = System.Drawing.Color.OrangeRed;
             this.lblMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMax.ForeColor = System.Drawing.Color.White;
-            this.lblMax.Location = new System.Drawing.Point(770, 323);
+            this.lblMax.Location = new System.Drawing.Point(770, 396);
             this.lblMax.MinimumSize = new System.Drawing.Size(75, 50);
             this.lblMax.Name = "lblMax";
             this.lblMax.Size = new System.Drawing.Size(75, 50);
@@ -146,7 +146,7 @@
             this.lblMin.BackColor = System.Drawing.Color.OrangeRed;
             this.lblMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMin.ForeColor = System.Drawing.Color.White;
-            this.lblMin.Location = new System.Drawing.Point(770, 396);
+            this.lblMin.Location = new System.Drawing.Point(770, 323);
             this.lblMin.MinimumSize = new System.Drawing.Size(75, 50);
             this.lblMin.Name = "lblMin";
             this.lblMin.Size = new System.Drawing.Size(75, 50);
@@ -202,24 +202,29 @@
             // 
             // btnMinimo
             // 
+            this.btnMinimo.Enabled = false;
             this.btnMinimo.Location = new System.Drawing.Point(659, 323);
             this.btnMinimo.Name = "btnMinimo";
             this.btnMinimo.Size = new System.Drawing.Size(75, 50);
             this.btnMinimo.TabIndex = 10;
             this.btnMinimo.Text = "Minimo";
             this.btnMinimo.UseVisualStyleBackColor = true;
+            this.btnMinimo.Click += new System.EventHandler(this.btnMinimo_Click);
             // 
             // btnMaximo
             // 
+            this.btnMaximo.Enabled = false;
             this.btnMaximo.Location = new System.Drawing.Point(659, 396);
             this.btnMaximo.Name = "btnMaximo";
             this.btnMaximo.Size = new System.Drawing.Size(75, 50);
             this.btnMaximo.TabIndex = 11;
             this.btnMaximo.Text = "Maximo";
             this.btnMaximo.UseVisualStyleBackColor = true;
+            this.btnMaximo.Click += new System.EventHandler(this.btnMaximo_Click);
             // 
             // btnModa
             // 
+            this.btnModa.Enabled = false;
             this.btnModa.Location = new System.Drawing.Point(658, 467);
             this.btnModa.Name = "btnModa";
             this.btnModa.Size = new System.Drawing.Size(75, 50);

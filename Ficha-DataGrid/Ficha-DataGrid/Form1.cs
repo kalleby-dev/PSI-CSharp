@@ -59,5 +59,20 @@ namespace Ficha_DataGrid
             total = (double)Decimal.Round((decimal)total, 2);
             this.lblMedia.Text = total.ToString();
         }
+
+        private void btnMinimo_Click(object sender, EventArgs e)
+        {
+            double min = numeros[0, 0];
+            foreach(double value in numeros)
+            {
+                min = (value < min)? value : min;
+            }
+            this.lblMin.Text = min.ToString();
+        }
+
+        private void btnMaximo_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
