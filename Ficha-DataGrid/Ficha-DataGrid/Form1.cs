@@ -40,6 +40,34 @@ namespace Ficha_DataGrid
             }
         }
 
+        public void updateButtons(bool state = false)
+        {
+            state = (state == false) ? !this.btnModa.Enabled : true;
+
+            this.btnModa.Enabled = state;
+            this.btnMedia.Enabled = state;
+            this.btnMinimo.Enabled = state;
+            this.btnMaximo.Enabled = state;
+        }
+
+        public void clearScreen()
+        {
+            for(int column = 0; column < COLUMN_MAX; column++)
+            {
+                for(int row = 0; row < ROW_MAX; row++)
+                {
+                    numeros[column, row] = 0;
+                    tblNumeros[column, row].Value = "";
+                }
+            }
+
+            this.lblMax.Text = "";
+            this.lblMin.Text = "";
+            this.lblModa.Text = "";
+            this.lblMedia.Text = "";
+            this.updateButtons();
+        }
+
         public int countNumber(int number)
         {
             List<int> values = new List<int> { };
@@ -51,13 +79,11 @@ namespace Ficha_DataGrid
             return values.Count(n => n == number);
         }
 
+
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             this.createRandom();
-            this.btnModa.Enabled = true;
-            this.btnMedia.Enabled = true;
-            this.btnMinimo.Enabled = true;
-            this.btnMaximo.Enabled = true;
+            this.updateButtons(true);
         }
 
         private void btnMedia_Click(object sender, EventArgs e)
@@ -106,6 +132,23 @@ namespace Ficha_DataGrid
                 }
             }
             this.lblModa.Text = moda.ToString();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            clearScreen();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.Show();
         }
     }
 }

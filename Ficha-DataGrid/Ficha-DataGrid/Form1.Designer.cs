@@ -45,11 +45,18 @@
             this.btnMinimo = new System.Windows.Forms.Button();
             this.btnMaximo = new System.Windows.Forms.Button();
             this.btnModa = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnClear = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnExit = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.tblNumeros)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tblNumeros
             // 
+            this.tblNumeros.AllowUserToOrderColumns = true;
             this.tblNumeros.BackgroundColor = System.Drawing.SystemColors.Control;
             this.tblNumeros.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tblNumeros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -62,6 +69,7 @@
             this.Column5});
             this.tblNumeros.Location = new System.Drawing.Point(189, 237);
             this.tblNumeros.Name = "tblNumeros";
+            this.tblNumeros.ReadOnly = true;
             this.tblNumeros.RowHeadersVisible = false;
             this.tblNumeros.RowHeadersWidth = 51;
             this.tblNumeros.RowTemplate.Height = 24;
@@ -233,6 +241,48 @@
             this.btnModa.UseVisualStyleBackColor = true;
             this.btnModa.Click += new System.EventHandler(this.btnModa_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.opçõesToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(961, 28);
+            this.menuStrip1.TabIndex = 13;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // opçõesToolStripMenuItem
+            // 
+            this.opçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnHelp,
+            this.btnClear,
+            this.btnExit});
+            this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
+            this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.opçõesToolStripMenuItem.Text = "Opções";
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(224, 26);
+            this.btnHelp.Text = "Ajuda/Sobre";
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(224, 26);
+            this.btnClear.Text = "Limpar grelha";
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(224, 26);
+            this.btnExit.Text = "Sair";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -250,9 +300,13 @@
             this.Controls.Add(this.lblMedia);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.tblNumeros);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.tblNumeros)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,6 +331,11 @@
         private System.Windows.Forms.Button btnMinimo;
         private System.Windows.Forms.Button btnMaximo;
         private System.Windows.Forms.Button btnModa;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem opçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnHelp;
+        private System.Windows.Forms.ToolStripMenuItem btnClear;
+        private System.Windows.Forms.ToolStripMenuItem btnExit;
     }
 }
 
