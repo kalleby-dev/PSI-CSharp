@@ -22,10 +22,11 @@ namespace Ficha_DataGrid
             this.tblNumeros.Rows.Add(9);
         }
 
+
         public void createRandom()
         {
             Random randf = new Random();
-            
+
             for(int column = 0; column < COLUMN_MAX; column++)
             {
                 for(int row = 0; row < ROW_MAX; row++)
@@ -41,6 +42,22 @@ namespace Ficha_DataGrid
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             this.createRandom();
+            this.btnModa.Enabled = true;
+            this.btnMedia.Enabled = true;
+            this.btnMinimo.Enabled = true;
+            this.btnMaximo.Enabled = true;
+        }
+
+        private void btnMedia_Click(object sender, EventArgs e)
+        {
+            double total = 0;
+            foreach(double value in numeros)
+            {
+                total += value;
+            }
+            total /= numeros.Length;
+            total = (double)Decimal.Round((decimal)total, 2);
+            this.lblMedia.Text = total.ToString();
         }
     }
 }
