@@ -1,0 +1,11 @@
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\bin\Debug\Ficha-DataGrid.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\bin\Debug\Ficha-DataGrid.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\bin\Debug\Ficha-DataGrid.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha-DataGrid.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha_DataGrid.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha_DataGrid.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha-DataGrid.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha-DataGrid.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha-DataGrid.exe
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha-DataGrid.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\Ficha-DataGrid\Ficha-DataGrid\obj\Debug\Ficha_DataGrid.About.resources

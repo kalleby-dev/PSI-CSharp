@@ -1,0 +1,10 @@
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\bin\Debug\FicheirosXML.exe.config
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\bin\Debug\FicheirosXML.exe
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\bin\Debug\FicheirosXML.pdb
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.csprojAssemblyReference.cache
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.Form1.resources
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.Properties.Resources.resources
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.csproj.GenerateResource.cache
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.csproj.CoreCompileInputs.cache
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.exe
+D:\Kalleby\Documents\Programing\C#\Escola\FicheirosXML\FicheirosXML\obj\Debug\FicheirosXML.pdb
